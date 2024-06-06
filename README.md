@@ -1,4 +1,4 @@
-# IC-Light
+# Lniaen/IC-Light
 
 IC-Light is a project to manipulate the illumination of images.
 
