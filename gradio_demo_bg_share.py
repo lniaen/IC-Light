@@ -18,7 +18,7 @@ from torch.hub import download_url_to_file
 
 # 'stablediffusionapi/realistic-vision-v51'
 # 'runwayml/stable-diffusion-v1-5'
-sd15_name = 'Yntec/epiCPhotoGasm'
+sd15_name = 'stablediffusionapi/realistic-vision-v51'
 tokenizer = CLIPTokenizer.from_pretrained(sd15_name, subfolder="tokenizer")
 text_encoder = CLIPTextModel.from_pretrained(sd15_name, subfolder="text_encoder")
 vae = AutoencoderKL.from_pretrained(sd15_name, subfolder="vae")
